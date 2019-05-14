@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+    
+	<h4>Wellcome to our site!</h4>
+	
+	<p> </p>
+	<p> </p>
+	
+	<p>It is a demo-version of a simple blog, which was built in the Python language and Django framework.</p>
+	
+	<p>To be able to add a new post to this blog: for first<a class="ml-2" href="{% url 'register' %}">Register</a> and then<a class="ml-2" href="{% url 'login' %}">Login</a>.</p>
+	   	
+	<p>After these steps you can manage your posts, edit your profile info and reset your password.</p>
+
+
+	<div id="home_img">
+      <a href="{% url 'blog' %}"> <img class="img-fluid rounded" src="http://i.piccy.info/i9/8f89086b235e03536863e771c03a5c59/1557302871/58904/1316611/BlogScrenshot_800.jpg" alt="Piccy.info - Free Image Hosting" border="0" href="{% url 'blog' %}"/></a>
+    </div>
+
+  	<p> </p>
+    <p> </p>
+
+{% endblock content %}
