@@ -1,4 +1,4 @@
-# Ademo-version of a simple blog
+# Simple blog
 
 It is a demo-version of a simple blog, which was built in the Python language and Django framework.
 
