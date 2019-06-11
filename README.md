@@ -4,7 +4,7 @@ It is a demo-version of a simple blog, which was built in the Python language an
 
 Demo: https://octave-infinity.herokuapp.com
 
-- Custom image files are storing on AWS S3 service.
+- Customer image files are storing on AWS S3 service.
 - The repository is fully prepared for deploying on HEROKU.
 
 Additionally, for this version: 
